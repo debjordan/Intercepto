@@ -1,0 +1,19 @@
+# Arquivos de build
+/build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Binários
+*.exe
+*.out
+*.o
+
+# Outros
+*.log
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+*.swp
