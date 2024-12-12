@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug (g++)",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/main.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "miDebuggerPath": "C:/mingw-w64/bin/gdb.exe",  // Altere para o caminho correto do gdb
+        "preLaunchTask": "build",
+        "miDebuggerServerAddress": "localhost:3000",
+        "logging": { "trace": true, "traceResponse": true, "engineLogging": true },
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  
