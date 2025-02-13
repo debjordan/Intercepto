@@ -17,6 +17,9 @@ Intercepto é uma ferramenta em C++ projetada para monitorar requisições HTTP 
 - Boost (`boost` e `boost-libs`).
 - CMake (mínimo 3.10).
 
+  ## **Novidades**
+  - Irei disponibilizar uma interface criada usando qt para conseguir fazer análise de dados com os payloads.
+
 ## **Instalação**
 
 1. Clone o repositório:
