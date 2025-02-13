@@ -21,5 +21,5 @@ Intercepto é uma ferramenta em C++ projetada para monitorar requisições HTTP 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/<seu-usuario>/intercepto.git
+   git clone https://github.com/debjordan/intercepto.git
    cd intercepto
