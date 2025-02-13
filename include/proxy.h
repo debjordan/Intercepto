@@ -5,11 +5,13 @@
 #include <boost/beast.hpp>
 #include <string>
 
-// configuracao do proxy http
-class Proxy {
+class Proxy
+{
 public:
-    void start(const std::string& host, unsigned short port);
+    void start(const std::string &host, unsigned short port);
+
 private:
-    void handle_request(boost::asio::ip::tcp::socket& socket);
+    void handle_request(boost::asio::ip::tcp::socket socket);
 };
+
 #endif
