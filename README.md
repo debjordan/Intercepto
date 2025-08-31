@@ -1,6 +1,6 @@
 # Intercepto
 
-Intercepto é uma ferramenta em C++ projetada para monitorar requisições HTTP em tempo real. Ele atua como um proxy simples, interceptando e exibindo detalhes como headers, método, URL e outros dados relevantes das requisições.
+Intercepto é uma ferramenta em **C++** projetada para monitorar requisições HTTP em tempo real. Ele atua como um **proxy** simples, interceptando e exibindo detalhes como headers, método, URL e outros dados relevantes das requisições.
 
 ## **Características**
 
