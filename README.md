@@ -1,28 +1,29 @@
 # Intercepto
 
-Intercepto é uma ferramenta em **C++** projetada para monitorar requisições HTTP em tempo real. Ele atua como um **proxy** simples, interceptando e exibindo detalhes como headers, método, URL e outros dados relevantes das requisições.
+Intercepto is a **C++** tool designed to monitor HTTP requests in real-time. It acts as a simple **proxy**, intercepting and displaying details such as headers, method, URL, and other relevant request data.
 
-## **Características**
+## **Features**
 
-- Captura de requisições HTTP.
-- Exibição de detalhes como:
-  - Método HTTP
+- HTTP request capture
+- Display of details including:
+  - HTTP method
   - URL
   - Headers
-- Arquitetura modular para fácil extensão.
+- Modular architecture for easy extension
 
-## **Requisitos**
+## **Requirements**
 
-- Compilador C++ com suporte a C++17.
-- Boost (`boost` e `boost-libs`).
-- CMake (mínimo 3.10).
+- C++ compiler with C++17 support
+- Boost (`boost` and `boost-libs`)
+- CMake (minimum 3.10)
 
-  ## **Novidades**
-  - Irei disponibilizar uma interface criada usando qt para conseguir fazer análise de dados com os payloads.
+## **Coming Soon**
+- Qt-based interface for payload data analysis
 
-## **Instalação**
+## **Installation**
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/debjordan/intercepto.git
    cd intercepto
+   ```
