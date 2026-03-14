@@ -5,6 +5,12 @@ CMakeCache.txt
 Makefile
 cmake_install.cmake
 
+# Evitar arquivos de dependências gerados pelo CMake/compilação incremental
+*.o.d
+
+# Binário de build local
+/build/Intercepto
+
 # Binários
 *.exe
 *.out
